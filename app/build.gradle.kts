@@ -54,4 +54,6 @@ dependencies {
 
     implementation(libs.squareup.retrofit2)
     implementation(libs.squareup.converter.gson)
+    implementation(libs.glide)
+
 }

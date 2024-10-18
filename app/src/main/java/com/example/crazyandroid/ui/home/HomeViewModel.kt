@@ -1,6 +1,5 @@
 package com.example.crazyandroid.ui.home
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -33,8 +32,6 @@ class HomeViewModel : ViewModel() {
             } catch (e: Exception) {
                 /*请求异常的话在这里处理*/
                 e.printStackTrace()
-
-                Log.i("banner请求失败", "${e.message}")
             }
         }
     }
